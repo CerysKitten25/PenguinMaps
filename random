@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<style>
+		#map {
+			height: 400px;
+			width: 400px;
+		}
+	</style>
+<title>daytrip planner</title>
+<body>
+<div id="map"></div>
+<input type="checkbox" name="option1" value="restaurants"> Restaurants<br>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Minimum stars</span>
+  <input type="text" class="form-control" placeholder="1-5" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Maximum stars</span>
+  <input type="text" class="form-control" placeholder="1-5" aria-describedby="basic-addon1">
+</div>
+<br>
+<input type="checkbox" name="option4" value="british/american"> British/American<br>
+<input type="checkbox" name="option5" value="Italian"> Italian<br>
+<input type="checkbox" name="option6" value="Chinese"> Chinese<br>
+<input type="checkbox" name="option7" value="Indian"> Indian<br>
+<input type="checkbox" name="option8" value="Multi/Other/Uncategorized"> Restaurants<br>
+<br>
+<br>
+<input type="checkbox" name="option2" value="indoor attractions"> Indoor attractions<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Minimum price</span>
+  <input type="text" class="form-control" placeholder="Free, £5, £10, £15, £20+" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Maximum price</span>
+  <input type="text" class="form-control" placeholder="Free, £5, £10, £15, £20+" aria-describedby="basic-addon1">
+</div>
+<br>
+<br>
+<input type="checkbox" name="option3" value="outdoor attractions"> Outdoor attractions<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Minimum price</span>
+  <input type="text" class="form-control" placeholder="Free, £5, £10, £15, £20+" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Maximum price</span>
+  <input type="text" class="form-control" placeholder="Free, £5, £10, £15, £20+" aria-describedby="basic-addon1">
+</div>
+</body>
+</html>
